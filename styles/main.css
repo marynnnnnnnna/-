@@ -1,0 +1,29 @@
+.main {
+  margin: 50px 20px;
+}
+
+.main__section img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+
+.article h3 {
+  font-size: 18px;
+}
+
+.article img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.section_4 ul {
+  padding: 0 25px !important;
+}

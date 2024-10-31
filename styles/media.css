@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .article {
+    flex: 1 0 100%;
+  }
+
+  .aside__1,
+  .aside__2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .article {
+    width: 100% !important;
+  }
+}

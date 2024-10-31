@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+ul,
+li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+:root {
+  --dark-chocolate: #886057;
+  --milk-chocolate: #b49e8c;
+  --latte: #d9d2cc;
+  --main-text: #53392a;
+}
+
+body {
+  background-color: var(--latte) !important;
+  color: var(--main-text) !important;
+  font-family: 'Playfair Display' !important;
+  font-size: 18px !important;
+}
+
+.container {
+  display: flex;
+}
+
+h2 {
+  margin-top: 30px !important;
+}
